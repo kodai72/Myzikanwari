@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyZikanwari_new</string>
+    <string name="button11">(1,1)</string>
+    <string name="button12">(1,2)</string>
+    <string name="button13">(1,3)</string>
+    <string name="button14">(1,4)</string>
+    <string name="button15">(1,5)</string>
+    <string name="button21">(2,1)</string>
+    <string name="button22">(2,2)</string>
+    <string name="button23">(2,3)</string>
+    <string name="button24">(2,4)</string>
+    <string name="button25">(2,5)</string>
+    <string name="button31">(3,1)</string>
+    <string name="button32">(3,2)</string>
+    <string name="button33">(3,3)</string>
+    <string name="button34">(3,4)</string>
+    <string name="button35">(3,5)</string>
+    <string name="button41">(4,1)</string>
+    <string name="button42">(4,2)</string>
+    <string name="button43">(4,3)</string>
+    <string name="button44">(4,4)</string>
+    <string name="button45">(4,5)</string>
+    <string name="button51">(5,1)</string>
+    <string name="button52">(5,2)</string>
+    <string name="button53">(5,3)</string>
+    <string name="button54">(5,4)</string>
+    <string name="button55">(5,5)</string>
+
+    <string-array name="num_list">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

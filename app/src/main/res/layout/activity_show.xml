@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.8"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame_values"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        >
+        <TextView
+            android:id="@+id/subject_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="科目名"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:hint="科目名を入力"
+            android:background="#00000000"
+            android:text=""
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+        <TextView
+            android:id="@+id/subject_color"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/shape_rounded_corners1"
+            android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/frame_values"
+        >
+        <TextView
+            android:id="@+id/room_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="教室"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:hint="教室を入力"
+            android:background="#00000000"
+            android:text=""
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/frame_values"
+        >
+        <TextView
+            android:id="@+id/teather_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="教員"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:hint="教員名を入力"
+            android:background="#00000000"
+            android:text=""
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+
+
+        >
+    <TextView
+        android:id="@+id/memo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="メモ"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:id="@+id/memo_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="15"
+        android:hint="メモを入力"
+        android:layout_gravity="center"
+        android:gravity="top|left"
+        android:text=""
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/frame_values"
+        android:imeOptions="actionDone"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        >
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="消去"
+            android:layout_marginRight="10dp"
+            />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="保存"
+        android:layout_marginRight="10dp"
+        />
+
+     </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
